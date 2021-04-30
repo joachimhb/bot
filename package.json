@@ -1,0 +1,31 @@
+{
+  "name": "@joachimhb/bot",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "@joachimhb/bot": "bot.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bump-regex": "^4.1.0",
+    "check-types-2": "^11.4.0",
+    "command-line-args": "^5.1.1",
+    "command-line-commands": "^3.0.2",
+    "execa": "^5.0.0",
+    "fs-extra": "^8.1.0",
+    "lodash": "^4.17.21",
+    "log4js": "^6.3.0",
+    "processenv": "^3.0.4",
+    "require-dir": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-es": "^3.28.27",
+    "eslint-plugin-json": "^2.1.2"
+  }
+}
