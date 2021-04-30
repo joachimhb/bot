@@ -1,10 +1,9 @@
 {
   "name": "@joachimhb/bot",
   "version": "0.0.0",
-  "description": "",
   "main": "index.js",
   "bin": {
-    "@joachimhb/bot": "bot.js"
+    "bot": "bot.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,5 +26,17 @@
     "eslint": "^7.24.0",
     "eslint-config-es": "^3.28.27",
     "eslint-plugin-json": "^2.1.2"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joachimhb/bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joachimhb/bot/issues"
+  },
+  "homepage": "https://github.com/joachimhb/bot#readme",
+  "description": ""
 }
