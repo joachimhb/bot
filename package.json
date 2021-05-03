@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "joachim.haecker-becker@arcor.de",
   "license": "MIT",
   "dependencies": {
     "bump-regex": "^4.1.0",
