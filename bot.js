@@ -1,12 +1,16 @@
 #!/usr/bin/env node
-'use strict';
 
-const commandLineArgs = require('command-line-args');
-const commandLineCommands = require('command-line-commands');
+/* eslint-disable no-process-exit */
 
-const commands = require('./lib/commands/');
+import commandLineArgs from 'command-line-args';
+import commandLineCommands from 'command-line-commands';
 
-const ui = require('./lib/ui');
+import release from './lib/commands/release.js';
+import ui from './lib/ui.js';
+
+const commands = {
+  release,
+};
 
 const done = err => {
   if(err) {

@@ -5,27 +5,26 @@
   "bin": {
     "bot": "bot.js"
   },
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "joachim.haecker-becker@arcor.de",
   "license": "MIT",
   "dependencies": {
-    "bump-regex": "^4.1.0",
-    "check-types-2": "^11.4.0",
-    "command-line-args": "^5.1.1",
-    "command-line-commands": "^3.0.2",
-    "execa": "^5.0.0",
-    "fs-extra": "^8.1.0",
-    "lodash": "^4.17.21",
-    "log4js": "^6.3.0",
-    "processenv": "^3.0.4",
-    "require-dir": "^1.2.0"
+    "bump-regex": "4.1.0",
+    "check-types-2": "11.8.1",
+    "command-line-args": "6.0.1",
+    "command-line-commands": "4.0.1",
+    "execa": "9.6.0",
+    "fs-extra": "11.3.2",
+    "lodash": "4.17.21",
+    "log4js": "6.9.1",
+    "processenv": "3.0.9"
   },
   "devDependencies": {
-    "eslint": "^7.24.0",
-    "eslint-config-es": "^3.28.27",
-    "eslint-plugin-json": "^2.1.2"
+    "@stheine/helpers": "1.2.1",
+    "eslint": "9.38.0"
   },
   "directories": {
     "lib": "lib"
